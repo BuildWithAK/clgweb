@@ -1,0 +1,81 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f7fb;
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: #ffffff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #4a00e0;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 1rem;
+  margin-bottom: 25px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.download-btn {
+  text-decoration: none;
+  font-size: 1rem;
+  background: #4a00e0;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+  display: inline-block;
+}
+
+.download-btn:hover {
+  background: #2b00b8;
+}
+
+.download-btn1 {
+  text-decoration: none;
+  font-size: 1rem;
+  background: #4a00e0;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+  display: inline-block;
+}
+
+.download-btn1:hover {
+  background: #2b00b8;
+}
+/* Mobile-Friendly */
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+  .download-btn {
+    font-size: 0.95rem;
+    padding: 10px;
+  } .download-btn1 {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+}
