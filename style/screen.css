@@ -22,6 +22,22 @@ margin-left: 15px;
 
 }
 
+.he h1{
+
+    font-size: 18px;
+}
+
+.he p{
+
+    font-size: 12px;
+}
+
+.he h2{
+
+    color: #f7ff00;
+    font-size: 23px;
+}
+
 .dee{
   font-size: 15px;
 align-items: center;
