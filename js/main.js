@@ -49,6 +49,8 @@ setInterval(updateCountdown, 1000);
 ];*/
 
 // Results Data
+
+/*
 const results = [
     {
         competition: "Debugger's Dilemma",
@@ -74,7 +76,7 @@ const results = [
     Third: "Avdhut Taral"
    }
     
-];
+];*/
 
 // Populate Notices
 /*
